@@ -1,0 +1,77 @@
+$primaryColor: #1b3dbc;
+$seconderyColor: #b0eaf3;
+$hoverColorTop: #b9ddff;
+$hoverColorSide: #b9ddff;
+@media (min-width: 500px) {
+  .content{
+    width: 60%;
+  }
+}
+
+@media (max-width: 499px) {
+    .header {
+        display: none;
+    }
+    .side-bar {
+      display: none;
+    }
+    .content{
+      width: 100%;
+      margin-right: 10px;
+      padding-right: 20px;
+    }
+}
+%block {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+%ULsetting {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+}
+.topnav{
+  @extend %ULsetting;
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: $primaryColor;
+  a{
+    @extend %block;
+  }
+  a:hover {
+    background-color: $hoverColorTop;
+  }
+}
+.side-bar {
+  float: left;
+  background-color: $seconderyColor;
+  height: 500px;
+  width: 10%;
+  a {
+    @extend %block;
+  }
+
+  a:hover {
+    background-color: $hoverColorSide;
+  }
+}
+
+
+.navitem {
+  float: left;
+  }
+.navitemR {
+  background-color: $hoverColorTop;
+  float: right;
+}
+.content {
+  border-left: medium solid lightgray;
+  padding-left: 10px;
+  float: left;
+  text-align: justify;
+}
