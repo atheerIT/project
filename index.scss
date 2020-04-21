@@ -3,14 +3,21 @@ $seconderyColor: #b0eaf3;
 $hoverColorTop: #b9ddff;
 $hoverColorSide: #b9ddff;
 
-@media (min-width: 500px){
+@media (min-width: 700px){
+  %LRsetting{
+    width: 50%;
+  }
 
 }
 
-@media (max-width: 499px){
+@media (max-width: 699px){
 
-
+  %LRsetting{
+    width: 100%;
+  }
 }
+
+
 %block {
   display: block;
   color: black;
@@ -28,28 +35,20 @@ nav{
     @extend %block;
   }
 }
-#intro{
+.column{
   float: left;
-  width: 50%;
-  height: 100%;
-  margin: 30px 40px;
-  background-color: blue;
-  }
-#container{
-  float: left;
-  background-color: green;
-  display: grid;
-  padding: 20px;
-  grid-column-gap: 20px;
-  grid-row-gap: 10px;
-  grid-template-columns: auto auto;
-  width: 50%;
-  height: 100%;
-  margin: 30px 40px;
+  padding: 30px;
+  height: auto;
 }
-.gridItem {
-    background-color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
+.left{
+  @extend %LRsetting;
+}
+.right{
+  @extend %LRsetting;
+}
+.incolumn{
+  @extend %LRsetting;
+  float: left;
+  padding: 10px;
+  text-align: center;
 }
