@@ -1,0 +1,137 @@
+$primaryColor: #1b3dbc;
+$seconderyColor: #b0eaf3;
+$hoverColorTop: #b9ddff;
+$hoverColorSide: #b9ddff;
+@media (min-width: 500px){
+  .content{
+    width: auto;
+    margin-left: 140px;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+  .header{
+    padding-bottom: 10px;
+    background-color: white;
+    width: 100%;
+  }
+  .side-bar{
+    width: 140px;
+  }
+  #renTitle{
+    display: none;
+  }
+  #homeMobile{
+    display: none;
+  }
+  #active{
+    background-color: red;
+  }
+}
+
+@media (max-width: 499px){
+    .header {
+        display: none;
+    }
+    .side-bar {
+      display: none;
+    }
+    .content{
+      width: 100%;
+      margin-top: 0px;
+      padding: 20px 30px;
+    }
+    .topnav{
+      margin-top: 0;
+
+    }
+    h3{
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .image{
+      width: 100%;
+    }
+    .navitem {
+      width: 100%;
+    }
+    .navitemR{
+      width: 100%;
+    }
+  #active{
+    display: none;
+  }
+}
+%block {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+%ULsetting {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  top: 0;
+}
+.topnav{
+  @extend %ULsetting;
+  background-color: $primaryColor;
+  width: 100%;
+  a{
+    @extend %block;
+  }
+  a:hover {
+    background-color: $hoverColorTop;
+  }
+}
+.side-bar {
+  float: left;
+  position: fixed;
+  background-color: $seconderyColor;
+  height: 800px;
+  padding-top: 102px;
+  z-index: 1;
+  border-right: medium solid lightgray;
+  a {
+    @extend %block;
+  }
+
+  a:hover {
+    background-color: $hoverColorSide;
+  }
+}
+
+
+.navitem {
+  float: left;
+  }
+.navitemR {
+  background-color: $hoverColorTop;
+  float: right;
+}
+.content {
+  float: left;
+  p {
+  text-align: justify;
+  }
+
+}
+.head{
+  z-index: 2;
+
+
+}
+#renTitle {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  margin: 0;
+  color: blue;
+}
+.image{
+  float: right;
+  margin-left: 10px;
+}
