@@ -15,6 +15,9 @@ $hoverColorSide: #b9ddff;
   %LRsetting{
     width: 100%;
   }
+  nav a{
+    width: 100%;
+  }
 }
 
 
@@ -37,7 +40,7 @@ nav{
 }
 .column{
   float: left;
-  padding: 30px;
+  padding: 40px;
   height: auto;
 }
 .left{
@@ -55,5 +58,8 @@ nav{
 .card{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+}
+p{
+  text-align: justify;
 }

@@ -5,6 +5,21 @@ $hoverColorSide: #b9ddff;
 @media (min-width: 500px){
   .content{
     width: 60%;
+    margin-left: 140px;
+    margin-top: 102px;
+    padding-left: 10px;
+  }
+  .header{
+    position: fixed;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 100%;
+  }
+  .topnav{
+      margin-top: 53px;
+  }
+  .side-bar{
+    width: 140px;
   }
 }
 
@@ -17,8 +32,11 @@ $hoverColorSide: #b9ddff;
     }
     .content{
       width: 100%;
-      margin-right: 10px;
-      padding-right: 20px;
+      margin-top: 40px;
+      padding: 20px 30px;
+    }
+    .topnav{
+      margin-top: 0;
     }
 }
 %block {
@@ -30,16 +48,16 @@ $hoverColorSide: #b9ddff;
 }
 %ULsetting {
   list-style-type: none;
-  margin: 0;
   padding: 0;
   overflow: hidden;
   top: 0;
 }
 .topnav{
   @extend %ULsetting;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   background-color: $primaryColor;
+
+  width: 100%;
   a{
     @extend %block;
   }
@@ -49,9 +67,10 @@ $hoverColorSide: #b9ddff;
 }
 .side-bar {
   float: left;
+  position: fixed;
   background-color: $seconderyColor;
   height: 500px;
-  width: 10%;
+  margin-top: 102px;
   a {
     @extend %block;
   }
@@ -71,7 +90,6 @@ $hoverColorSide: #b9ddff;
 }
 .content {
   border-left: medium solid lightgray;
-  padding-left: 10px;
   float: left;
   text-align: justify;
 }
