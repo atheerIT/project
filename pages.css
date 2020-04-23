@@ -121,4 +121,8 @@ th {
 table {
   margin-bottom: 10px; }
 
+ol li {
+  padding-bottom: 10px;
+  border-bottom: 1px dashed gray; }
+
 /*# sourceMappingURL=pages.css.map */
