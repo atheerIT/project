@@ -2,6 +2,7 @@ $primaryColor: #F2F2F2;
 $seconderyColor: #B5B5B5;
 $hoverColorTop: #A5A5A5;
 $hoverColorSide: #b9ddff;
+$cardColor: #FA8B31;
 
 @media (min-width: 700px){
   %LRsetting{
@@ -67,7 +68,7 @@ nav{
   padding: 5px;
   margin-bottom: 20px;
   border-radius: 10px;
-  background-color: $seconderyColor;
+  background-color: $cardColor;
   a{
     color: black;
   }
