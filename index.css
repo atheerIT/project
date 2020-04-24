@@ -9,16 +9,21 @@
     width: 100%; } }
 nav a {
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 12px 16px;
-  text-decoration: none; }
+  text-decoration: none;
+  background-color: black;
+  margin: 0px; }
 
 body {
-  background-color: #dce7ed; }
+  background-color: #F2F2F2; }
 
-nav a:hover {
-  background-color: #80c5ee; }
+nav {
+  background-color: black; }
+  nav a:hover {
+    color: white;
+    background-color: #A5A5A5; }
 
 .column {
   float: left;
@@ -35,9 +40,15 @@ nav a:hover {
   padding: 5px;
   margin-bottom: 20px;
   border-radius: 10px;
-  background-color: #EFE3D2; }
+  background-color: #B5B5B5; }
   .card a {
     color: black; }
+  .card a:hover {
+    color: white;
+    text-decoration: none; }
+
+.card:hover {
+  background-color: black; }
 
 p {
   text-align: justify; }
