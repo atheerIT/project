@@ -94,7 +94,7 @@ $activeColor: #80C5EE;
   height: 800px;
   padding-top: 102px;
   z-index: 1;
-  border-right: medium solid lightgray;
+  /*border-right: medium solid lightgray;*/
   a {
     @extend %block;
   }

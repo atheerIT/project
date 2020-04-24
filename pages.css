@@ -78,7 +78,7 @@
   height: 800px;
   padding-top: 102px;
   z-index: 1;
-  border-right: medium solid lightgray; }
+  /*border-right: medium solid lightgray;*/ }
   .side-bar a:hover {
     background-color: #b9ddff; }
 
