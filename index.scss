@@ -30,6 +30,7 @@ $cardColor: #FA8B31;
   text-decoration: none;
   background-color: black;
   margin: 0px;
+  border-radius: 5px;
 }
 
 body {
@@ -82,4 +83,7 @@ nav{
 }
 p{
   text-align: justify;
+}
+.row{
+  width: 100%;
 }
