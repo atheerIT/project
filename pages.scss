@@ -1,7 +1,8 @@
-$primaryColor: #1b3dbc;
-$seconderyColor: #b0eaf3;
-$hoverColorTop: #b9ddff;
+$primaryColor: #DCE7ED;
+$seconderyColor: #EFE3D2;
+$hoverColorTop: #80c5ee;
 $hoverColorSide: #b9ddff;
+$activeColor: #80C5EE;
 @media (min-width: 500px){
   .content{
     width: auto;
@@ -24,7 +25,7 @@ $hoverColorSide: #b9ddff;
     display: none;
   }
   #active{
-    background-color: red;
+    background-color: $activeColor;
   }
 }
 
@@ -63,7 +64,7 @@ $hoverColorSide: #b9ddff;
 }
 %block {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 12px 16px;
   text-decoration: none;
@@ -82,6 +83,7 @@ $hoverColorSide: #b9ddff;
     @extend %block;
   }
   a:hover {
+    /*color: white;*/
     background-color: $hoverColorTop;
   }
 }
@@ -119,8 +121,12 @@ $hoverColorSide: #b9ddff;
 }
 .head{
   z-index: 2;
-
-
+  h1{
+    color: black;
+    a{
+      color: black;
+    }
+  }
 }
 #renTitle {
   width: 100%;

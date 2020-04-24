@@ -1,6 +1,6 @@
-$primaryColor: #1b3dbc;
-$seconderyColor: #b0eaf3;
-$hoverColorTop: #b9ddff;
+$primaryColor: #dce7ed;
+$seconderyColor: #F2C18D;
+$hoverColorTop: #80c5ee;
 $hoverColorSide: #b9ddff;
 
 @media (min-width: 700px){
@@ -30,12 +30,15 @@ $hoverColorSide: #b9ddff;
 }
 
 body {
-  background-color: lightgray;
+  background-color: $primaryColor;
 }
 
 nav{
   a{
     @extend %block;
+  }
+  a:hover {
+    background-color: $hoverColorTop;
   }
 }
 .column{
@@ -60,6 +63,10 @@ nav{
   padding: 5px;
   margin-bottom: 20px;
   border-radius: 10px;
+  background-color: $seconderyColor;
+  a{
+    color: black;
+  }
 }
 p{
   text-align: justify;

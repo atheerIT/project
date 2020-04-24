@@ -20,7 +20,7 @@
     display: none; }
 
   #active {
-    background-color: red; } }
+    background-color: #80C5EE; } }
 @media (max-width: 499px) {
   .header {
     display: none; }
@@ -53,7 +53,7 @@
     display: none; } }
 .topnav a, .side-bar a {
   display: block;
-  color: white;
+  color: black;
   text-align: center;
   padding: 12px 16px;
   text-decoration: none; }
@@ -65,15 +65,16 @@
   top: 0; }
 
 .topnav {
-  background-color: #1b3dbc;
+  background-color: #DCE7ED;
   width: 100%; }
   .topnav a:hover {
-    background-color: #b9ddff; }
+    /*color: white;*/
+    background-color: #80c5ee; }
 
 .side-bar {
   float: left;
   position: fixed;
-  background-color: #b0eaf3;
+  background-color: #EFE3D2;
   height: 800px;
   padding-top: 102px;
   z-index: 1;
@@ -85,7 +86,7 @@
   float: left; }
 
 .navitemR {
-  background-color: #b9ddff;
+  background-color: #80c5ee;
   float: right; }
 
 .content {
@@ -95,6 +96,10 @@
 
 .head {
   z-index: 2; }
+  .head h1 {
+    color: black; }
+    .head h1 a {
+      color: black; }
 
 #renTitle {
   width: 100%;

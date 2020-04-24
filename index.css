@@ -15,7 +15,10 @@ nav a {
   text-decoration: none; }
 
 body {
-  background-color: lightgray; }
+  background-color: #dce7ed; }
+
+nav a:hover {
+  background-color: #80c5ee; }
 
 .column {
   float: left;
@@ -31,7 +34,10 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 5px;
   margin-bottom: 20px;
-  border-radius: 10px; }
+  border-radius: 10px;
+  background-color: #F2C18D; }
+  .card a {
+    color: black; }
 
 p {
   text-align: justify; }
