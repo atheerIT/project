@@ -1,8 +1,8 @@
-$primaryColor: #9d9f93;/*#F2F2F2;*/
+$primaryColor: #F2F2F2;
 $seconderyColor: #B5B5B5;
 $hoverColorTop: #A5A5A5;
 $hoverColorSide: #b9ddff;
-$cardColor: #8CADAC;/*#55C6DA;#FA8B31;*/
+$cardColor: #FA8B31;
 
 @media (min-width: 700px){
   %LRsetting{
@@ -36,7 +36,6 @@ $cardColor: #8CADAC;/*#55C6DA;#FA8B31;*/
 
 body {
   background-color: $primaryColor;
-  color: white;
 }
 
 nav{

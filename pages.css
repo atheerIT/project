@@ -58,8 +58,7 @@
   #active {
     display: none; } }
 body {
-  color: white;
-  background-color: #9d9f93; }
+  background-color: #F2F2F2; }
 
 .topnav a, .side-bar a {
   display: block;
@@ -85,7 +84,7 @@ body {
 .side-bar {
   float: left;
   position: fixed;
-  background-color: #8CADAC;
+  background-color: #FA8B31;
   height: 800px;
   padding-top: 102px;
   z-index: 1;
@@ -97,7 +96,7 @@ body {
   float: left; }
 
 .navitemR {
-  background-color: #8CADAC;
+  background-color: #FA8B31;
   float: right; }
 
 .content {
