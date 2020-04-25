@@ -1,4 +1,5 @@
 /*#F2F2F2;*/
+/*#FA8B31;*/
 @media (min-width: 700px) {
   .left, .right, .incolumn {
     width: 50%; } }
@@ -44,7 +45,7 @@ nav {
   padding: 5px;
   margin-bottom: 20px;
   border-radius: 10px;
-  background-color: #FA8B31; }
+  background-color: #55C6DA; }
   .card a {
     color: black; }
   .card a:hover {
