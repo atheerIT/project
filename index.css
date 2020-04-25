@@ -15,7 +15,8 @@ nav a {
   text-decoration: none;
   background-color: black;
   margin: 0px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  font-family: 'Abril Fatface'; }
 
 body {
   background-color: #F2F2F2; }
