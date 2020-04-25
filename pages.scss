@@ -1,11 +1,11 @@
-$primaryColor: #F2F2F2;
-$seconderyColor: #FA8B31;
+$primaryColor: #9d9f93;
+$seconderyColor: #8CADAC;
 $hoverColorTop: #A5A5A5;
 $hoverColorSide: black;
 $activeColor: #A5A5A5;
 $topHeadColor: black;
 $navTextColor: white;
-$referenceColor: #FA8B31;
+$referenceColor: #8CADAC;
 @media (min-width: 500px){
   .content{
     width: auto;
@@ -72,6 +72,7 @@ $referenceColor: #FA8B31;
   }
 }
 body{
+  color: white;
   background-color:$primaryColor;
 }
 %block {
