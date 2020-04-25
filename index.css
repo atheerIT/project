@@ -1,3 +1,4 @@
+/*#F2F2F2;*/
 @media (min-width: 700px) {
   .left, .right, .incolumn {
     width: 50%; } }
@@ -18,7 +19,8 @@ nav a {
   border-radius: 5px; }
 
 body {
-  background-color: #F2F2F2; }
+  background-color: #6a6c60;
+  color: white; }
 
 nav {
   background-color: black; }
@@ -37,7 +39,8 @@ nav {
   text-align: center; }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 black;
+  /*rgba(0, 0, 0, 0.2);*/
   padding: 5px;
   margin-bottom: 20px;
   border-radius: 10px;
