@@ -1,3 +1,4 @@
+/*MEDIA: for making the website adaptive to the small screen*/
 @media (min-width: 700px) {
   .left, .right, .incolumn {
     width: 50%; } }
@@ -7,6 +8,7 @@
 
   nav a {
     width: 100%; } }
+/*the website style*/
 nav a {
   display: block;
   color: white;
